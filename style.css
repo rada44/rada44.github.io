@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script&family=Great+Vibes&display=swap');
+
+html {
+    scroll-behavior: smooth;}
+
+body {
+    font-family: 'Advent Pro', sans-serif;'
+    padding: 0;
+    margin: 0;  
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+    
+h3 {text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em; 
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+    
+/*    ****************************NAVBAR*****************************/
+    
+    nav{
+        overflow: hidden;
+        background-color: rgba(157, 194, 94, 0.653);
+        position: fixed;
+        width: 100%;
+        opacity: 0.6;
+    }
+header li{
+    float: right;
+    font-size: 1.2em;
+    
+}
+header li a{
+    text-align: center;
+    display: block;
+    padding: 18px 15px;
+    text-decoration: none;
+    color: #040404;
+}
+#logo{
+    float: left;
+    font-weight: bold;
+    font-family: Great Vibes;
+    font-size: 1.4em;
+}
+/**************Image Principale**********************/
+
+#Imageprincipale{
+    padding-top: 300px;
+        text-align: center;
+        width: auto;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-size: cover;
+        background: url(Image/Chef.jpg) fixed 50% 50% no-repeat;
+        height: 500px;
+        color: #dfe4ea;
+        background-color: rgba(117, 155, 50, 0.653);
+}
+
+#Premiertrait {
+    height: 1px;
+    width: 35%;
+    margin: -3px auto;
+    box-shadow: 1px 1px 2px rgb(252, 252, 252);
+}
+
+#Artiste {
+    text-align: center;
+    margin: 5px auto;
+    font-size: 20px ;
+    font-weight: bold;
+}
+p1{
+    font-style: italic;
+    font-family: Great Vibes;
+    font-size: 25px;
+    margin: 5px auto;
+}
+
+/*********************Photos*********************************/
+
+#Galerie{
+    background-color: rgba(117, 155, 50, 0.653);
+    padding: 10px 0px 100px 0;;
+}
+#Titre{
+    padding-top: 5px;
+}
+#Peintures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 10%;
+}
+.Photos h4{
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 800;
+    font-family: 'Dancing Script', cursive;
+}
+.Photos img{
+    width: 350px;
+    height: 350px;   
+    border-radius: 60px;
+    box-shadow: 1px 1px 12px 1px #000000;
+}
+.Photos img:hover{
+    opacity: 0.95;
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+}
+#Resume{
+    padding: 100px 0 0 0;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    font-family: Great Vibes;
+    font-size: 35px;
+}
+/*****************Footer****************/
+
+Footer{
+    margin: 0;
+    padding: 20px 0 10px 0;
+    background-color: rgba(146, 97, 61, 0.653);
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(Image/feuille.jpg);
+}
+Footer h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 0.8em;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px
+}
+button:hover{
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    color: white;
+    background-color:rgba(115, 78, 51, 0.653) ;
+}
+#Deuxiemetrait{
+    height: 1px;
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 50px;
+}
+#copyrightEtIcons{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
